@@ -14,7 +14,7 @@ let data;
 let isplay = false;
 let songNum = 0;
 
-$.getJSON("res/data.json", function(json) {
+$.getJSON("../resPlayer/data.json", function(json) {
     data = json;
     after();
 });
@@ -40,8 +40,8 @@ function after(){
     }
 
     let updateSong = function(songNum){
-        cover.src = "./res/" + data[songNum].cover;
-        songSource.src = "./res/" + data[songNum].mp3;
+        cover.src = "../resPlayer/" + data[songNum].cover;
+        songSource.src = "../resPlayer/" + data[songNum].mp3;
         title.innerHTML = data[songNum].title;
         artist.innerHTML = data[songNum].artist;
 
@@ -51,7 +51,7 @@ function after(){
         song.play();
         playIcon.classList.remove("play");
         playIcon.classList.add("pause");
-        playIcon.src = "res/pause.png";
+        playIcon.src = "../resPlayer/pause.png";
         isplay = true;
     }
 
@@ -75,13 +75,13 @@ function after(){
             song.pause();
             playIcon.classList.remove("pause");
             playIcon.classList.add("play");
-            playIcon.src = "res/play.png";
+            playIcon.src = "../resPlayer/play.png";
             isplay = false;
         }else{
             song.play();
             playIcon.classList.remove("play");
             playIcon.classList.add("pause");
-            playIcon.src = "res/pause.png";
+            playIcon.src = "../resPlayer/pause.png";
             isplay = true;
         }
     }
