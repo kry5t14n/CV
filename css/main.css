@@ -179,14 +179,14 @@ form input[type="submit"]:hover, form input[type="reset"]:hover{
 
 .projectGame{
     background-attachment: absolute;
-    background-image: url("../res/project_game.png");
+    background-image: url("../resMain/project_game.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .projectPlayer{
     background-attachment: absolute;
-    background-image: url("../res/music_player.png");
+    background-image: url("../resMain/music_player.png");
     background-repeat: no-repeat;
     background-size: cover;
 }

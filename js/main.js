@@ -36,35 +36,35 @@ $(document).ready(() => {
     })
 
     $('.skillsSection1').on('mouseover', () => {
-        $('#htmlImg').attr('src', 'res/htmlB.png');
-        $('#cssImg').attr('src', 'res/cssB.png');
-        $('#javascriptImg').attr('src', 'res/javascriptB.png');
+        $('#htmlImg').attr('src', 'resMain/htmlB.png');
+        $('#cssImg').attr('src', 'resMain/cssB.png');
+        $('#javascriptImg').attr('src', 'resMain/javascriptB.png');
     })
     $('.skillsSection1').on('mouseout', () => {
-        $('#htmlImg').attr('src', 'res/html.png');
-        $('#cssImg').attr('src', 'res/css.png');
-        $('#javascriptImg').attr('src', 'res/javascript.png');
+        $('#htmlImg').attr('src', 'resMain/html.png');
+        $('#cssImg').attr('src', 'resMain/css.png');
+        $('#javascriptImg').attr('src', 'resMain/javascript.png');
     })
 
     $('.skillsSection2').on('mouseover', () => {
-        $('#reactImg').attr('src', 'res/reactB.png');
-        $('#vuejsImg').attr('src', 'res/vuejsB.png');
-        $('#jqueryImg').attr('src', 'res/jqueryB.png');
+        $('#reactImg').attr('src', 'resMain/reactB.png');
+        $('#vuejsImg').attr('src', 'resMain/vuejsB.png');
+        $('#jqueryImg').attr('src', 'resMain/jqueryB.png');
     })
     $('.skillsSection2').on('mouseout', () => {
-        $('#reactImg').attr('src', 'res/react.png');
-        $('#vuejsImg').attr('src', 'res/vuejs.png');
-        $('#jqueryImg').attr('src', 'res/jquery.png');
+        $('#reactImg').attr('src', 'resMain/react.png');
+        $('#vuejsImg').attr('src', 'resMain/vuejs.png');
+        $('#jqueryImg').attr('src', 'resMain/jquery.png');
     })
 
     $('.skillsSection3').on('mouseover', () => {
-        $('#nodejsImg').attr('src', 'res/nodejsB.png');
-        $('#wordpressImg').attr('src', 'res/wordpressB.png');
-        $('#cppImg').attr('src', 'res/cppB.png');
+        $('#nodejsImg').attr('src', 'resMain/nodejsB.png');
+        $('#wordpressImg').attr('src', 'resMain/wordpressB.png');
+        $('#cppImg').attr('src', 'resMain/cppB.png');
     })
     $('.skillsSection3').on('mouseout', () => {
-        $('#nodejsImg').attr('src', 'res/nodejs.png');
-        $('#wordpressImg').attr('src', 'res/wordpress.png');
-        $('#cppImg').attr('src', 'res/cpp.png');
+        $('#nodejsImg').attr('src', 'resMain/nodejs.png');
+        $('#wordpressImg').attr('src', 'resMain/wordpress.png');
+        $('#cppImg').attr('src', 'resMain/cpp.png');
     })
 });
